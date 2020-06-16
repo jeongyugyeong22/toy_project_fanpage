@@ -1,5 +1,7 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 body{
     background-color: black;
@@ -13,22 +15,36 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    color: white;
     transform: translate(-50%,-50%);
-}
-
-.item {
-    visibility: hidden;
-    display: none;
 }
 
 #mainHref{
     text-align: center;
     display: block;
-    text-decoration : none;
     color : #F8FAFF;
+    text-decoration : none;
     font-weight : bold;
     font-size: 4em;
-    font-family: 'Sriracha';
+    font-family: 'Fira Sans', sans-serif;
     text-shadow: 2px 2px 4px black;
+}
+
+#mainHref::after{
+    position: absolute;
+    width: 600px;
+    top : 40%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Yellowtail';
+    font-size : 6rem;
+    font-weight: lighter;
+    content : "fanpage";
+    color : #77919d;
+    max-width: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+#mainHref:hover::after{
+    max-width: 100%;
 }
