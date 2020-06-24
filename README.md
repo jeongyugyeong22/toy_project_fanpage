@@ -7,3 +7,7 @@
 2020-06-16 (화)
 * index.html hover 적용
 * css 
+
+2020-06-24 (수)
+* index.html font 변경
+* about.html 구현
