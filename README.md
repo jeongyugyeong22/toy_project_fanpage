@@ -11,3 +11,7 @@
 2020-06-24 (수)
 * index.html font 변경
 * about.html 구현
+
+2020-06-25 (목)
+* index.html 반응형 구현 중
+* about.html 버튼 css 수정
