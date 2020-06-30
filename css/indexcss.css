@@ -50,12 +50,64 @@ body{
     max-width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-    /* For tablets: */
+@media only screen and (max-width: 1280px) {
+    /* For desktop */
+    #mainHref{
+        font-size:3.5em;
+    }
+    #mainHref::after{
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For desktop: */
     #mainHref{
         font-size:3em;
     }
     #mainHref::after{
-        font-size: 4em;
+        font-size: 4rem;
     }
-  }
+    body{
+        background-size : 450px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    /* For laptop: */
+    #mainHref{
+        font-size:2.5em;
+    }
+    #mainHref::after{
+        font-size: 3.5rem;
+    }
+    body{
+        background-size : 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablet: */
+    #mainHref{
+        font-size:2em;
+    }
+    #mainHref::after{
+        font-size: 3rem;
+    }
+    body{
+        background-size : 350px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* For mobile: */
+    #mainHref{
+        font-size:1.5em;
+    }
+    #mainHref::after{
+        font-size: 2.5rem;
+    }
+    body{
+        background-size : 275px;
+    }
+}
