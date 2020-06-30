@@ -30,27 +30,7 @@ body{
     text-shadow: 2px 2px 4px black;
 }
 
-#mainHref::after{
-    position: absolute;
-    width: 600px;
-    top : 40%;
-    left : 50%;
-    transform: translate(-50%,-50%);
-    font-family: 'Pacifico', cursive;
-    font-size : 5rem;
-    font-weight: lighter;
-    content : "Fansite";
-    color : #8C8C5D;
-    max-width: 0;
-    overflow: hidden;
-    transition: all 0.5s;
-}
-
-#mainHref:hover::after{
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 1280px) {
+@media all and (min-width:1024px) {
     /* For desktop */
     #mainHref{
         font-size:3.5em;
@@ -58,35 +38,28 @@ body{
     #mainHref::after{
         font-size: 4.5rem;
     }
-}
-
-@media only screen and (max-width: 1024px) {
-    /* For desktop: */
-    #mainHref{
-        font-size:3em;
-    }
     #mainHref::after{
-        font-size: 4rem;
+        position: absolute;
+        width: 600px;
+        top : 40%;
+        left : 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Pacifico', cursive;
+        font-size : 5rem;
+        font-weight: lighter;
+        content : "Fansite";
+        color : #8C8C5D;
+        max-width: 0;
+        overflow: hidden;
+        transition: all 0.5s;
     }
-    body{
-        background-size : 450px;
+    
+    #mainHref:hover::after{
+        max-width: 100%;
     }
 }
 
-@media only screen and (max-width: 960px) {
-    /* For laptop: */
-    #mainHref{
-        font-size:2.5em;
-    }
-    #mainHref::after{
-        font-size: 3.5rem;
-    }
-    body{
-        background-size : 400px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
+@media all and (min-width:768px) and (max-width:1023px) {
     /* For tablet: */
     #mainHref{
         font-size:2em;
@@ -99,7 +72,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media all and (max-width:767px) {
     /* For mobile: */
     #mainHref{
         font-size:1.5em;
@@ -109,5 +82,18 @@ body{
     }
     body{
         background-size : 275px;
+    }
+}
+
+@media all and (max-width:479px){
+    /* For mobile: */
+    #mainHref{
+        font-size:1em;
+    }
+    #mainHref::after{
+        font-size: 2rem;
+    }
+    body{
+        background-size : 200px;
     }
 }
