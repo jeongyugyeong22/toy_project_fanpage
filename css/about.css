@@ -95,13 +95,21 @@ body{
 @media all and (max-width:767px) {
     /* For mobile: */
     #park_pic{
-        margin : 17% auto;
+        margin : 20% auto;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
     }
 }
 
 @media all and (max-width:479px){
     /* For mobile: */
     #park_pic{
-        margin : 20% auto;
+        margin : 30% auto;
+    }
+    .profile{
+        width: 175px;
+        height: 175px;
     }
 }
