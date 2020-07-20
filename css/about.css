@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400'); 
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean'); 
 
@@ -11,20 +10,17 @@ body{
 }
 
 #park_pic{
-    width: 250px;
-    height: 250px; 
-    border-radius: 70%;
-    overflow: hidden; 
-    position: absolute;
-    left: 50%;
-    top:30%;
-    transform: translate(-50%,-30%);
+    width:100%;
+    text-align:center;
+    margin : 8% auto;
 }
 
-.profile {
-    width: 100%;
-    height: 100%;
+.profile{
+    width: 250px;
+    height: 250px;
     object-fit: cover;
+    border-radius: 50%;
+    margin : 0 auto;
 }
 
 #text .name_eng{
@@ -49,7 +45,7 @@ body{
 }
 
 #text .birthday{
-    font-size: 1em;
+    font-size: 1rem;
     font-family: 'Black Han Sans', sans-serif;
     color: #8C8C5D;
     position: absolute;
@@ -82,8 +78,30 @@ body{
 
  a{
      display: block;
-     font-size: 1em;
+     font-size: 1rem;
      font-family: 'Black Han Sans', sans-serif;
      text-decoration : none;
      color : #8C8C5D;
+}
+
+
+@media all and (min-width:768px) and (max-width:1023px) {
+    /* For tablet: */
+    #park_pic{
+        margin : 15% auto;
+    }
+}
+
+@media all and (max-width:767px) {
+    /* For mobile: */
+    #park_pic{
+        margin : 17% auto;
+    }
+}
+
+@media all and (max-width:479px){
+    /* For mobile: */
+    #park_pic{
+        margin : 20% auto;
+    }
 }
