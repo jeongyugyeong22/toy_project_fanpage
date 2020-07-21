@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/movie.css">
     <title>MOVIE</title>
 </head>
 <body>
@@ -10,18 +11,23 @@
         <span>MOVIE</span>
     </section>
     <section id="content">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul class = "movieList">
+            <li class="list"><img class="movieImg" src="../image/1.jpg" alt ="연애담"></li>
         </ul>
     </section>
+
+    <script>
+        var list = document.querySelector(".movieList");
+        
+        for(var i = 2; i < 25; i++){
+            var element = document.createElement("li");
+            element.className="list";
+            var img = document.createElement("img");
+            img.className = "movieImg"
+            img.src = '../image/'+ i +'.jpg';
+            list.appendChild(element);
+            element.appendChild(img);
+        }
+    </script>
 </body>
 </html>
