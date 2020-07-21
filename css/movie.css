@@ -1,0 +1,32 @@
+#title {
+    width : 100%;
+    height : 400px;
+}
+
+#title > span{
+    font-size: 100px;
+    text-align: center;
+}
+
+#content{
+    width:100%;
+    text-align:center;
+    margin : 8% auto;
+}
+
+.movieImg{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin : 0 auto;
+}
+
+.list{
+    width : 100px;
+    display : inline-block;
+    list-style : none;
+    line-height : 40px;
+    vertical-align: middle;
+    text-align : center;
+}
