@@ -36,9 +36,6 @@ body{
         font-size:3.5em;
     }
     #mainHref::after{
-        font-size: 4.5rem;
-    }
-    #mainHref::after{
         position: absolute;
         width: 600px;
         top : 40%;

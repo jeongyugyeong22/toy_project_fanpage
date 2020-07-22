@@ -8,18 +8,19 @@
 </head>
 <body>
     <section id="title">
+        <span class="name_eng">parkjeongmin</span>
         <span>MOVIE</span>
     </section>
     <section id="content">
         <ul class = "movieList">
-            <li class="list"><img class="movieImg" src="../image/1.jpg" alt ="연애담"></li>
+            <li class="list"><img class="movieImg" src="../image/24.jpg"></li>
         </ul>
     </section>
 
     <script>
         var list = document.querySelector(".movieList");
         
-        for(var i = 2; i < 25; i++){
+        for(var i = 23; i > 0; i--){
             var element = document.createElement("li");
             element.className="list";
             var img = document.createElement("img");
@@ -28,6 +29,7 @@
             list.appendChild(element);
             element.appendChild(img);
         }
+
     </script>
 </body>
 </html>
