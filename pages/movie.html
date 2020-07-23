@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/movie.css">
     <title>MOVIE</title>
 </head>
+
 <body>
     <section id="title">
+        <span class="main"><a href="about.html" class="toMain">ㄷㅕㅇ</a></span>
         <span class="name_eng">parkjeongmin</span>
         <span>MOVIE</span>
     </section>
+
     <section id="content">
-        <ul class = "movieList">
-            <li class="list"><img class="movieImg" src="../image/24.jpg"></li>
+        <ul class="movieList">
+            <li class="list"><img class="movieImg" src="../image/24.jpg" onclick="popUp()"></li>
         </ul>
     </section>
 
+    <div id="moiveModal" class="modal">
+        <div class="conetentModal">
+            <span class="close">&times;</span>
+            <p>Some text. Some text. Some text.</p>
+        </div>
+    </div>
+  
+
     <script>
         var list = document.querySelector(".movieList");
-        
-        for(var i = 23; i > 0; i--){
+
+        for (var i = 23; i > 0; i--) {
             var element = document.createElement("li");
-            element.className="list";
+            element.className = "list";
             var img = document.createElement("img");
-            img.className = "movieImg"
-            img.src = '../image/'+ i +'.jpg';
+            img.className = "movieImg";
+            img.src = '../image/' + i + '.jpg';
+            img.onclick = function() {popUp()};
             list.appendChild(element);
             element.appendChild(img);
         }
 
+        var modal = document.getElementById('moiveModal');
+        var span = document.getElementsByClassName("close")[0];
+
+        function popUp(){
+            modal.style.display = "block";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
     </script>
 </body>
+
 </html>
