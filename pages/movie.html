@@ -24,42 +24,17 @@
     <div id="moiveModal" class="modal">
         <div class="conetentModal">
             <span class="close">&times;</span>
-            <p>Some text. Some text. Some text.</p>
+            <h4>다만 악에서 구하소서</h4>
+            <p>youtube_address</p>
         </div>
     </div>
-  
 
-    <script>
-        var list = document.querySelector(".movieList");
 
-        for (var i = 23; i > 0; i--) {
-            var element = document.createElement("li");
-            element.className = "list";
-            var img = document.createElement("img");
-            img.className = "movieImg";
-            img.src = '../image/' + i + '.jpg';
-            img.onclick = function() {popUp()};
-            list.appendChild(element);
-            element.appendChild(img);
-        }
-
-        var modal = document.getElementById('moiveModal');
-        var span = document.getElementsByClassName("close")[0];
-
-        function popUp(){
-            modal.style.display = "block";
-        }
-
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
+    <script src="../script/listScript.js"></script>
+    <script src="../script/modalScript.js"></script>
+    <script id="content" type="text/x-my-template">
+        <h4>{title}</h4>
+        <p>{url}</p>
     </script>
 </body>
 
