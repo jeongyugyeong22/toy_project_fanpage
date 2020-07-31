@@ -77,7 +77,7 @@ body{
     filter: alpha(opacity=100);
 }
 
-#moiveModal {
+#movieModal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -90,7 +90,7 @@ body{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
     
-.conetentModal {
+#conetentModal {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -104,6 +104,7 @@ body{
     font-size: 28px;
     font-weight: bold;
 }
+
 .close:hover,.close:focus {
     color: black;
     text-decoration: none;
