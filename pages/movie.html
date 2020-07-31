@@ -17,25 +17,22 @@
 
     <section id="content">
         <ul class="movieList">
-            <li class="list"><img class="movieImg" src="../image/24.jpg" onclick="popUp()"></li>
+            <li class="list"><img class="movieImg" src="../image/24.jpg" id="24" onclick="popUp()"></li>
         </ul>
     </section>
 
-    <div id="moiveModal" class="modal">
-        <div class="conetentModal">
-            <span class="close">&times;</span>
-            <h4>다만 악에서 구하소서</h4>
-            <p>youtube_address</p>
+    <div id="movieModal" class="modal">
+        <div id="conetentModal">
         </div>
     </div>
 
 
     <script src="../script/listScript.js"></script>
     <script src="../script/modalScript.js"></script>
-    <script id="content" type="text/x-my-template">
+    <script id="modalContent" type="text/x-my-template">
+        <span class="close" onclick="document.getElementById('movieModal').style.display='none'">&times;</span>
         <h4>{title}</h4>
         <p>{url}</p>
     </script>
 </body>
-
 </html>
