@@ -1,10 +1,13 @@
 var modal = document.getElementById('movieModal');
-var span = document.getElementsByClassName("close")[0];
+var close = document.getElementsByClassName("close")[0];
 
 function popUp(){
     modal.style.display = "block";
 }
 
+close.onclick = function (event) {
+    modal.style.display='none'
+}
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none";
@@ -35,7 +38,7 @@ function sendAjax(url, clickedName) {
     oReq.send();
 }
 
-var movieImg = document.querySelector(".movieImg");
+var movieImg = document.querySelector(".movieList");
 
 movieImg.addEventListener("click", function (evt) {
     sendAjax("../json/movieData.txt",evt.target.id);
