@@ -5,7 +5,7 @@
     },
     {
         "id" : 2,
-        "content" : ["파수꾼", "https://youtu.be/D6E2WRBUIMg"]
+        "content" : ["파수꾼", "https://www.youtube.com/embed/D6E2WRBUIMg"]
     },
     {
         "id" : 3,
@@ -13,39 +13,39 @@
     },
     {
         "id" : 4,
-        "content" : ["댄싱퀸", "https://youtu.be/NyT2fmOlgiw"]
+        "content" : ["댄싱퀸", "https://www.youtube.com/embed/NyT2fmOlgiw"]
     },
     {
         "id" : 5,
-        "content" : ["전설의 주먹", "https://youtu.be/uRZFEJvNYAQ"]
+        "content" : ["전설의 주먹", "https://www.youtube.com/embed/uRZFEJvNYAQ"]
     },
     {
         "id" : 6,
-        "content" : ["감기", "https://youtu.be/WF7QgKiyIMA"]
+        "content" : ["감기", "https://www.youtube.com/embed/WF7QgKiyIMA"]
     },
     {
         "id" : 7,
-        "content" : ["들개", "https://youtu.be/fBJxPTuhG5E"]
+        "content" : ["들개", "https://www.youtube.com/embed/fBJxPTuhG5E"]
     },
     {
         "id" : 8,
-        "content" : ["피끓는 청춘", "https://youtu.be/LfVjazBVlOw"]
+        "content" : ["피끓는 청춘", "https://www.youtube.com/embed/LfVjazBVlOw"]
     },
     {
         "id" : 9,
-        "content" : ["신촌 좀비 만화", "https://youtu.be/bTJ4Vx7wzd4"]
+        "content" : ["신촌 좀비 만화", "https://www.youtube.com/embed/bTJ4Vx7wzd4"]
     },
     {
         "id" : 10,
-        "content" : ["태양을 쏴라", "https://youtu.be/6iyisCFPGyk"]
+        "content" : ["태양을 쏴라", "https://www.youtube.com/embed/6iyisCFPGyk"]
     },
     {
         "id" : 11,
-        "content" : ["오피스", "https://youtu.be/vIL08Xu8uVk"]
+        "content" : ["오피스", "https://www.youtube.com/embed/vIL08Xu8uVk"]
     },
     {
         "id" : 12,
-        "content" : ["동주", "https://youtu.be/1JHhqldrUYg"]
+        "content" : ["동주", "https://www.youtube.com/embed/1JHhqldrUYg"]
     },
     {
         "id" : 13,
@@ -53,46 +53,46 @@
     },
     {
         "id" : 14,
-        "content" : ["무서운 이야기 3", "https://youtu.be/f7WCulC_Q8Q"]
+        "content" : ["무서운 이야기 3", "https://www.youtube.com/embed/f7WCulC_Q8Q"]
     },
     {
         "id" : 15,
-        "content" : ["더킹", "https://youtu.be/9781AC4ecnI"]
+        "content" : ["더킹", "https://www.youtube.com/embed/9781AC4ecnI"]
     },
     {
         "id" : 16,
-        "content" : ["아티스트 : 다시 태어나다", "https://youtu.be/THFnaEJl1tk"]
+        "content" : ["아티스트 : 다시 태어나다", "https://www.youtube.com/embed/THFnaEJl1tk"]
     },
     {
         "id" : 17,
-        "content" : ["그것만이 내 세상", "https://youtu.be/8doapPExBc8"]
+        "content" : ["그것만이 내 세상", "https://www.youtube.com/embed/8doapPExBc8"]
     },
     {
         "id" : 18,
-        "content" : ["염력", "https://youtu.be/GdNiC7L4DWY"]
+        "content" : ["염력", "https://www.youtube.com/embed/GdNiC7L4DWY"]
     },
     {
         "id" : 19,
-        "content" : ["변산", "https://youtu.be/xbxe2D5d9jk"]
+        "content" : ["변산", "https://www.youtube.com/embed/xbxe2D5d9jk"]
     },
     {
         "id" : 20,
-        "content" : ["사바하", "https://youtu.be/hx2wUzYh5EE"]
+        "content" : ["사바하", "https://www.youtube.com/embed/hx2wUzYh5EE"]
     },
     {
         "id" : 21,
-        "content" : ["타짜 : 원 아이드 잭", "https://youtu.be/MYys7iLTbMA"]
+        "content" : ["타짜 : 원 아이드 잭", "https://www.youtube.com/embed/MYys7iLTbMA"]
     },
     {
         "id" : 22,
-        "content" : ["시동", "https://youtu.be/hKlpat_0IF0"]
+        "content" : ["시동", "https://www.youtube.com/embed/hKlpat_0IF0"]
     },
     {
         "id" : 23,
-        "content" : ["사냥의 시간", "https://youtu.be/HOcqRR52cmk"]
+        "content" : ["사냥의 시간", "https://www.youtube.com/embed/HOcqRR52cmk"]
     },
     {
         "id" : 24,
-        "content" : ["다만 악에서 구하소서", "https://youtu.be/919GruRSZzE"]
+        "content" : ["다만 악에서 구하소서", "https://www.youtube.com/embed/919GruRSZzE"]
     }
 ]
