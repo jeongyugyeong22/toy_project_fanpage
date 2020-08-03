@@ -21,18 +21,20 @@
         </ul>
     </section>
 
-    <div id="movieModal" class="modal">
-        <div id="conetentModal">
-        </div>
-    </div>
+    <section id="movieModal" class="modal">
+        <section id = "closeModal">
+            <span class="close">&times;</span>
+        </section>
+        <section id = "conetentModal">
+        </section>
+    </section>
 
 
     <script src="../script/listScript.js"></script>
     <script src="../script/modalScript.js"></script>
     <script id="modalContent" type="text/x-my-template">
-        <span class="close" onclick="document.getElementById('movieModal').style.display='none'">&times;</span>
-        <h4>{title}</h4>
-        <p>{url}</p>
+        <span class="title">{title}</span>
+        <p><iframe width="420" height="315" src="{url}"></iframe></p>
     </script>
 </body>
 </html>
