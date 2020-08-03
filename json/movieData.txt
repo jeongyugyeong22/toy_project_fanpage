@@ -94,5 +94,5 @@
     {
         "id" : 24,
         "content" : ["다만 악에서 구하소서", "https://www.youtube.com/embed/919GruRSZzE"]
-    }
+    },
 ]
