@@ -17,10 +17,12 @@ window.onclick = function (event) {
 function makeTemplate(data, clickedName) {
     var html = document.getElementById("modalContent").innerHTML;
     var resultHTML = "";
-    for (var i = 23; i >= 0; i--) {
+    for (var i = 21; i >= 0; i--) {
         if (data[i].id == clickedName) {
             resultHTML = html.replace("{title}", data[i].content[0])
-                             .replace("{url}", data[i].content[1]);
+                             .replace("{role}", data[i].content[1])
+                             .replace("{name}", data[i].content[2])
+                             .replace("{url}", data[i].content[3]);
             break;
         }
     }
