@@ -16,8 +16,9 @@
     </section>
 
     <section id="content">
+        <span class="caution">단편 영화, 특별 출연 작품은 제외한 목록들입니다 :)</span>
         <ul class="movieList">
-            <li class="list"><img class="movieImg" src="../image/24.jpg" id="24" onclick="popUp()"></li>
+            <li class="list"><img class="movieImg" src="../image/22.jpg" id="22" onclick="popUp()"></li>
         </ul>
     </section>
 
@@ -34,7 +35,8 @@
     <script src="../script/modalScript.js"></script>
     <script id="modalContent" type="text/x-my-template">
         <span class="title">{title}</span>
-        <p><iframe width="420" height="315" src="{url}"></iframe></p>
+        <p><span class="role">{role}</span><span class="name"> | {name}</span></p>
+        <p><iframe width="600" height="315" src="{url}"></iframe></p>
     </script>
 </body>
 </html>
