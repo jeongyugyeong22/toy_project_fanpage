@@ -41,7 +41,7 @@ function sendAjax(url, clickedName) {
     oReq.send();
 }
 
-var movieImg = document.querySelector(".movieList");
+var movieImg = document.querySelector(".dramaList");
 
 movieImg.addEventListener("click", function (evt) {
     sendAjax("../json/movieData.txt",evt.target.id);
