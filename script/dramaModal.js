@@ -27,7 +27,7 @@ function makeTemplate(data, clickedName) {
             break;
         }
     }
-    document.querySelector("#conetentModal").innerHTML = resultHTML;
+    document.querySelector("#contentModal").innerHTML = resultHTML;
     
 }
 
@@ -41,9 +41,9 @@ function sendAjax(url, clickedName) {
     oReq.send();
 }
 
-var movieImg = document.querySelector(".movieList");
+var movieImg = document.querySelector(".dramaList");
 
 movieImg.addEventListener("click", function (evt) {
-    sendAjax("../json/movieData.txt",evt.target.id);
+    sendAjax("../json/dramaData.txt",evt.target.id);
 });
 
