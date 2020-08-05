@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean'); 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+body{
+    background-color: rgba(195, 195, 222, 0.1 );
+}
+
+#title {
+    width : 100%;
+    height : 130px;
+}
+
+#title .main{
+    font-size: 2em;
+    font-family: 'Black Han Sans', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,-5%);
+}
+.toMain{
+    color: #37375E;
+    text-decoration : none;
+}
+#title .name_eng{
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    color: #A3A3BA;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-10%);
+}
+
+#title > span{
+    font-size: 3em;
+    font-family: 'Black Han Sans', sans-serif;
+    color: #37375E;
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    transform: translate(-50%,-14%);
+    text-shadow: 1px 1px 1px #A6A6A6;
+}
+
+#content{
+    width:100%;
+    text-align:center;
+    margin : 3% auto;
+}
+
+.list{
+    width : 100px;
+    margin: 20px 200px 0 0;
+    display : inline-block;
+    list-style : none;
+    line-height : 40px;
+    vertical-align: middle;
+    text-align : center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.poster{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin : 0 auto;
+}
+
+.list:hover, .list:focus, .list:active {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+#dramaModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#closeModal {
+    background-color: #fefefe;
+    margin: 0 auto;
+    margin-top: 8%;
+    width : 50%;
+    border: 1px solid #888;
+    border-bottom: none;
+}
+
+.close {
+    padding-top: 10px;
+    color: #aaa;
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#conetentModal {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 50px 20px 0 20px;
+    border: 1px solid #888;
+    border-top : none;
+    width: 50%;
+    text-align: center;               
+}
+
+.title{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 3em;
+    color : #53535E;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.role{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #37375E;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.25rem;
+    color: #53535E;
+    text-align: left;
+    margin: 0 auto;
+}
