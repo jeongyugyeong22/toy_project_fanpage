@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/drama.css">
+    <title>DRAMA</title>
+</head>
+<body>
+    <section id="title">
+        <span class="main"><a href="about.html" class="toMain">ㄷㅕㅇ</a></span>
+        <span class="name_eng">parkjeongmin</span>
+        <span>DRAMA</span>
+    </section>
+
+    <section id="content">
+        <ul class="dramaList">
+            <li class="list"><img class="movieImg" src="../image/drama/8.jpg" id="8" onclick="popUp()"></li>
+        </ul>
+    </section>
+
+    <section id="dramaModal" class="modal">
+        <section id = "closeModal">
+            <span class="close">&times;</span>
+        </section>
+        <section id = "conetentModal">
+        </section>
+    </section>
+
+
+    <script src="../script/dramaList.js"></script>
+    <script src="../script/dramaModal.js"></script>
+    <script id="modalContent" type="text/x-my-template">
+        <span class="title">{title}</span>
+        <p><span class="role">{role}</span><span class="name"> | {name}</span></p>
+        <p><iframe width="600" height="315" src="{url}"></iframe></p>
+    </script>
+</body>
+</html>
