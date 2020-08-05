@@ -25,7 +25,7 @@
     },
     {
         "id" : 7,
-        "content" : ["신촌 좀비 만화", "주연", "비젠/보현 역", "https://www.youtube.com/embed/bTJ4Vx7wzd4"]
+        "content" : ["신촌 좀비 만화", "주연", "비젠,보현 역", "https://www.youtube.com/embed/bTJ4Vx7wzd4"]
     },
     {
         "id" : 8,
