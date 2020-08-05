@@ -18,7 +18,7 @@ window.onclick = function (event) {
 function makeTemplate(data, clickedName) {
     var html = document.getElementById("modalContent").innerHTML;
     var resultHTML = "";
-    for (var i = 21; i >= 0; i--) {
+    for (var i = 7; i >= 0; i--) {
         if (data[i].id == clickedName) {
             resultHTML = html.replace("{title}", data[i].content[0])
                              .replace("{role}", data[i].content[1])
@@ -41,9 +41,9 @@ function sendAjax(url, clickedName) {
     oReq.send();
 }
 
-var movieImg = document.querySelector(".dramaList");
+var dramaImg = document.querySelector(".dramaList");
 
-movieImg.addEventListener("click", function (evt) {
+dramaImg.addEventListener("click", function (evt) {
     sendAjax("../json/dramaData.txt",evt.target.id);
 });
 
