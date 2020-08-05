@@ -6,7 +6,7 @@ for (var i = 21; i > 0; i--) {
 
     var img = document.createElement("img");
     img.className = "movieImg";
-    img.src = '../image/' + i + '.jpg';
+    img.src = '../image/movie/' + i + '.jpg';
     img.id = i;
     img.onclick = function () {popUp()};
     list.appendChild(element);
