@@ -1,4 +1,4 @@
-var modal = document.getElementById('movieModal');
+var modal = document.getElementById('modal');
 var close = document.getElementsByClassName("close")[0];
 
 function popUp(){
