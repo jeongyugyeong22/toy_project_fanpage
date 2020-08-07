@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/page.css">
-    <title>DRAMA</title>
+    <title>ETC</title>
 </head>
 <body>
     <section id="title">
@@ -16,15 +16,15 @@
     <section id="content">
         <span class = "playTitle">공 연</span>
         <ul class="playList">
-            <li class="list"><img class="poster" src="../image/play/3.jpg" id="8" onclick="popUp()"></li>
+            <li class="list"><img class="poster" src="../image/play/3.jpg" id="3" onclick="popUp()"></li>
         </ul>
         <span class = "playTitle">책</span>
         <ul class="bookList">
-            <li class="list"><img class="poster" src="../image/book/1.jpg" id="1" onclick="popUp()"></li>
+            <li class="list"><img class="poster" src="../image/book/1.jpg" id="1"></li>
         </ul>
     </section>
 
-    <section id="etcModal" class="modal">
+    <section id="modal" class="modal">
         <section id = "closeModal">
             <span class="close">&times;</span>
         </section>
@@ -38,7 +38,6 @@
     <script id="modalContent" type="text/x-my-template">
         <span class="title">{title}</span>
         <p><span class="role">{role}</span><span class="name"> | {name}</span></p>
-        <p><iframe width="600" height="315" src="{url}"></iframe></p>
     </script>
 </body>
 </html>
