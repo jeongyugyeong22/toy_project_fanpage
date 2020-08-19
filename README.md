@@ -1,6 +1,6 @@
 # TOY_PROJECT_FANPAGE
 
-[작업 로그](https://record-60.tistory.com/category/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB%20programming/toy%20project%20%F0%9F%91%BE)
+[작업 로그](https://record-60.tistory.com/62?category=418999)
 
 Screen shot
 -----------
